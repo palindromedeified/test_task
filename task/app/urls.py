@@ -1,7 +1,7 @@
 import django.urls
 
-import task.app.views
+import app.views
 
 urlpatterns = [
-    django.urls.path('', task.app.views.hello),
+    django.urls.path('', app.views.hello),
 ]
